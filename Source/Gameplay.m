@@ -12,12 +12,16 @@
     
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
+    CCNode *_levelNode;
     
 }
 
 - (void)didLoadFromCCB {
     
     self.userInteractionEnabled = YES;
+    
+    CCNode *level = [CCBReader load:@"Levels/Level1"];
+    [_levelNode addChild:level];
     
 }
 
