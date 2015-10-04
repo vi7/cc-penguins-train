@@ -13,6 +13,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_contentNode;
     
 }
 
@@ -22,6 +23,7 @@
     
     CCNode *level = [CCBReader load:@"Levels/Level1"];
     [_levelNode addChild:level];
+    _physicsNode.debugDraw = YES;
     
 }
 
@@ -43,6 +45,17 @@
     CGPoint force = ccpMult(launchDirection, 8000);
     
     [penguin.physicsBody applyForce:force];
+    
+    self.position = ccp(0, 0);
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:follow];
+    
+}
+
+- (void) retry {
+    
+    // reload this level
+    [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
     
 }
 
