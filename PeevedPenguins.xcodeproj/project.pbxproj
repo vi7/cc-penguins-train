@@ -94,9 +94,9 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
-		D46A27571BB883F50055C937 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A27561BB883F50055C937 /* Gameplay.m */; settings = {ASSET_TAGS = (); }; };
-		D4CCF64B1BB492BB00420F56 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCF64A1BB492BB00420F56 /* Penguin.m */; settings = {ASSET_TAGS = (); }; };
-		D4CCF6521BB492DC00420F56 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCF6511BB492DC00420F56 /* Seal.m */; settings = {ASSET_TAGS = (); }; };
+		D46A27571BB883F50055C937 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A27561BB883F50055C937 /* Gameplay.m */; };
+		D4CCF64B1BB492BB00420F56 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCF64A1BB492BB00420F56 /* Penguin.m */; };
+		D4CCF6521BB492DC00420F56 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCF6511BB492DC00420F56 /* Seal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
